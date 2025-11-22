@@ -100,9 +100,9 @@ class Television:
         - Volume (0 if muted)
         """
         if self.__muted:
-            return f"Power - {self.__status}, Channel - {self.__channel}, Volume - {0}."
+            return f"Power = {self.__status}, Channel = {self.__channel}, Volume = {0}"
         else:
-            return f"Power - {self.__status}, Channel - {self.__channel}, Volume - {self.__volume}."
+            return f"Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}"
 
 def main() -> None:
     pass
