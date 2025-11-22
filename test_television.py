@@ -1,6 +1,5 @@
 from television import Television
 
-
 def test_init():
     tv = Television()
     assert str(tv) == "Power - False, Channel - 0, Volume - 0."
@@ -62,3 +61,4 @@ def test_volume_down():
     assert "Volume - 0" in str(tv)
     tv.volume_down()
     assert "Volume - 0" in str(tv)
+
